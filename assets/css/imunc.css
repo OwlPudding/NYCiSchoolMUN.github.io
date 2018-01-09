@@ -1,0 +1,35 @@
+.title {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 20px;
+}
+#info {
+	display: flex;
+	flex-direction: row;
+	padding: 0px 0px 15px 50px;
+}
+#map {
+	flex: 1;
+}
+#map iframe {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+#text-info {
+	flex: 1;
+	margin-left: -200px;
+}
+#text-info ul {
+	list-style-type: none;
+}
+#text-info ul li {
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+.time-slot {
+	display: inline;
+}
+.activity {
+	display: inline;
+}

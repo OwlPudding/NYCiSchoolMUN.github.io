@@ -1,0 +1,50 @@
+#header {
+	flex: 0 1 auto;
+}
+#main {
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: column;
+}
+.committee {
+	text-align: center;
+	color: white;
+}
+.committee:hover {
+	cursor: pointer;
+}
+#IJIC {
+	flex: 1;
+	background-image: url("../img/IJIC.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+}
+#ITS2K1 {
+	flex: 1;
+	background-image: url("../img/ITS2K1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+#IMPC {
+	flex: 1;
+	background-image: url("../img/IMPC.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+}
+#IATRC {
+	flex: 1;
+	background-image: url("../img/IATRC.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top 15%;
+}
+#IPUN {
+	flex: 1;
+	background-image: url("../img/IPUN.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
