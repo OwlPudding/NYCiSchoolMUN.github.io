@@ -48,3 +48,25 @@
 	background-size: cover;
 	background-position: center;
 }
+.content {
+	display: flex;
+	flex-direction: row;
+}
+#left {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	width: 800px;
+	flex: 6;
+}
+#right {
+	flex: 3;
+}
+.committee-cover {
+	height: 340px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 1px solid black;
+}
